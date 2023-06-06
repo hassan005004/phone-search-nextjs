@@ -46,6 +46,7 @@ export default function ChatInterface() {
             .catch((error) => {
                 console.error('Error:', error);
                 addMessage('An error occurred. Please try again.');
+                addMessage(error);
             })
             .finally(() => {
                 setLoading(false);
