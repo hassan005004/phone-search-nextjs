@@ -46,6 +46,7 @@ export default async function handler(req, res) {
         },
         ];
     const dataPromises = arrayOfPromptResults
+    
         .filter((result) => result !== undefined)
         .map(async ({ urls, metaphorSearchPrompt }) => {
             return Promise.all(
