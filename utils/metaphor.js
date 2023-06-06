@@ -40,7 +40,7 @@ export async function getURLs(request, breadth) {
     The genius always points to websites with 'contact us' information. What did the genius send the assistant? Output your {numOfPrompts} best guesses in a javascript array:`;
 
     const llm = new ChatOpenAI({
-        apiKey: process.env.OPENAI_API_KEY,
+        apiKey: "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",
         modelName: 'gpt-4',
         temperature: 0,
     });

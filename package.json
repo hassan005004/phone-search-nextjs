@@ -22,7 +22,8 @@
         "react-dom": "^18.2.0"
     },
     "devDependencies": {
-        "puppeteer": "^19.7.2"
+        "cross-env": "^7.0.3",
+        "puppeteer": "^18.2.1"
     },
     "engines": {
         "node": ">=18"
